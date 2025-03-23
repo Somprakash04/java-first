@@ -39,5 +39,6 @@ import java.util.Scanner;
         for(int i=0;i<n;i++){
             System.out.println(i);
         }
-    }
+    }  
  }
+/////HALF CODE
