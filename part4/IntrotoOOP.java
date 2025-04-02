@@ -2,7 +2,7 @@
 public class IntrotoOOP {
     public static void main(String[] args) {
         // Object creation
-        Car car1 = new Car();
+        Car1 car1 = new Car1();
         car1.brand = "Toyota";
         car1.year = 2022;
         car1.display();
@@ -10,7 +10,7 @@ public class IntrotoOOP {
 }
 
 // Separate class outside main
-class Car {
+class Car1 {
     String brand;
     int year;
 
@@ -19,3 +19,23 @@ class Car {
         System.out.println("Brand: " + brand + ", Year: " + year);
     }
 }
+// Class definition
+// class Car {
+//     String brand;
+//     int year;
+
+//     // Method
+//     void display() {
+//         System.out.println("Brand: " + brand + ", Year: " + year);
+//     }
+    
+//     // Main method
+//     public static void main(String[] args) {
+//         // Object creation
+//         Car car1 = new Car();
+//         car1.brand = "Toyota";
+//         car1.year = 2022;
+//         car1.display();
+//     }
+// }
+
