@@ -39,3 +39,23 @@ class Car1 {
 //     }
 // }
 
+//Constructor-------
+// Class Car{
+//     String brand;
+//     int year;
+//     // Constructor
+//     Car(String brand, int year){
+//         this.brand = brand;
+//         this.year = year;
+//     }
+//     // Method
+//     void display(){
+//         System.out.println("Brand: " + brand + ", Year: " + year);
+//     }
+//     public static void main(String[] args) {
+//         // Object creation
+//         Car car1 = new Car("Toyota", 2022);
+//         car1.display();
+//     }
+// }
+
